@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="Styles/styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <title>Tela com Tabela</title>
+</head>
+
+<body>
+    <section class="customers-screen">
+        <aside class="lateral-menu">
+            <ul class="lateral-menu__icons">
+                <li class="icons__bell">
+                    <i class="fa-solid fa-bell"
+                        style="font-size: clamp(2.5px,2.09vw,40px); color: #0D9488; grid-area: 1 / 1;"></i>
+                    <p class="bell-number">3</p>
+                </li>
+                <li class="icons__gear">
+                    <i class="fa-solid fa-gear"
+                        style="font-size: clamp(2.5px,1.875vw,36px); color: #CDCDCD; grid-area: 1 / 1;"></i>
+                </li>
+            </ul>
+            <div class="lateral-menu__picture">
+                <figure class="picture-wrapper">
+                    <img src="Images/profilePicture.png" alt="Foto de Perfil" class="picture">
+                    <figcaption class="picture-caption">Lance Newmann</figcaption>
+                </figure>
+            </div>
+            <div class="lateral-menu__options">
+                <ul class="lateral-menu__options__list">
+                    <li class="lateral-menu__list-iterm__wrapper">
+                        <div class="info-left">
+                            <i class="fa-solid fa-calendar" style="font-size: clamp(5px,1.35vw,1.35vw);"></i>
+                            <p>Schedule</p>
+                        </div>
+                        <i class="fa-solid fa-chevron-right" style="font-size: clamp(5px,1vw,1vw);"></i>
+                        <ul class="inside-list">
+                            <li class="inside-list__item">
+                                <p>List</p>
+                            </li>
+                            <li class="inside-list__item">
+                                <p>Create</p>
+                            </li>
+                            <li class="inside-list__item">
+                                <p>Report</p>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="lateral-menu__list-iterm__wrapper">
+                        <div class="info-left">
+                            <i class="fa-solid fa-bell-concierge" style="font-size: clamp(5px,1.35vw,1.35vw);"></i>
+                            <p>Orders</p>
+                        </div>
+                        <i class="fa-solid fa-chevron-right" style="font-size: clamp(5px,1vw,1vw);"></i>
+                        <ul class="inside-list">
+                            <li class="inside-list__item">
+                                <p>List</p>
+                            </li>
+                            <li class="inside-list__item">
+                                <p>Create</p>
+                            </li>
+                            <li class="inside-list__item">
+                                <p>Report</p>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="lateral-menu__list-iterm__wrapper">
+                        <div class="info-left">
+                            <i class="fa-solid fa-user" style="font-size: clamp(5px,1.35vw,1.35vw);"></i>
+                            <p>Customers</p>
+                        </div>
+                        <i class="fa-solid fa-chevron-right" style="font-size: clamp(5px,1vw,1vw);"></i>
+                        <ul class="inside-list">
+                            <li class="inside-list__item">
+                                <p>List</p>
+                            </li>
+                            <li class="inside-list__item">
+                                <p>Create</p>
+                            </li>
+                            <li class="inside-list__item">
+                                <p>Report</p>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="lateral-menu__list-iterm__wrapper">
+                        <div class="info-left">
+                            <i class="fa-solid fa-briefcase" style="font-size: clamp(5px,1.35vw,1.35vw);"></i>
+                            <p>Employees</p>
+                        </div>
+                        <i class="fa-solid fa-chevron-right" style="font-size: clamp(5px,1vw,1vw);"></i>
+                        <ul class="inside-list">
+                            <li class="inside-list__item">
+                                <p>List</p>
+                            </li>
+                            <li class="inside-list__item">
+                                <p>Create</p>
+                            </li>
+                            <li class="inside-list__item">
+                                <p>Report</p>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="lateral-menu__list-iterm__wrapper">
+                        <div class="info-left">
+                            <i class="fa-solid fa-scissors" style="font-size: clamp(5px,1.35vw,1.35vw);"></i>
+                            <p>Services</p>
+                        </div>
+                        <i class="fa-solid fa-chevron-right" style="font-size: clamp(5px,1vw,1vw);"></i>
+                        <ul class="inside-list">
+                            <li class="inside-list__item">
+                                <p>List</p>
+                            </li>
+                            <li class="inside-list__item">
+                                <p>Create</p>
+                            </li>
+                            <li class="inside-list__item">
+                                <p>Report</p>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="lateral-menu__list-iterm__wrapper">
+                        <div class="info-left">
+                            <i class="fa-solid fa-paperclip" style="font-size: clamp(5px,1.35vw,1.35vw);"></i>
+                            <p>Products</p>
+                        </div>
+                        <i class="fa-solid fa-chevron-right" style="font-size: clamp(5px,1vw,1vw);"></i>
+                        <ul class="inside-list">
+                            <li class="inside-list__item">
+                                <p>List</p>
+                            </li>
+                            <li class="inside-list__item">
+                                <p>Create</p>
+                            </li>
+                            <li class="inside-list__item">
+                                <p>Report</p>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="lateral-menu__list-iterm__wrapper">
+                        <div class="info-left">
+                            <i class="fa-solid fa-parachute-box" style="font-size: clamp(5px,1.35vw,1.35vw);"></i>
+                            <p>Suppliers</p>
+                        </div>
+                        <i class="fa-solid fa-chevron-right" style="font-size: clamp(5px,1vw,1vw);"></i>
+                        <ul class="inside-list">
+                            <li class="inside-list__item">
+                                <p>List</p>
+                            </li>
+                            <li class="inside-list__item">
+                                <p>Create</p>
+                            </li>
+                            <li class="inside-list__item">
+                                <p>Report</p>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </aside>
+        <div class="content">
+            <div class="Edit-screen">
+                <div class="Edit-modal">
+                    <div class="header-modal">
+                        <h2 class="content-tittle">EDIT SERVICE</h2>
+                        <h3 class="content-subtittle">Information</h3>
+                        <hr>
+                    </div>
+                    <form class="form-modal">
+                        <div class="acima-formulario">
+                            <div class="esquerda-formulario">
+                                <input type="text" placeholder="NAME" class="name">
+                                <input type="text" placeholder="DESCRIPTION" class="description">
+                            </div>
+                            <div class="direita-formulario">
+                                <input type="text" placeholder="PRICE">
+                                <select>
+                                    <input type="text" placeholder="DURATION">
+                            </div>
+                        </div>
+                        <div class="abaixo-formulario">
+                            <div class="checkbox">
+                                <input type="checkbox">
+                                <label class="chackbox-label">INACTIVE</label>
+                            </div>
+                            <div class="botoes-modal">
+                                <button type="button" onclick="save()" class="save-button">SAVE</button>
+                                <button type="button" onclick="fecharModal()" class="cancel-button">CANCEL</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="content-main">
+                <div class="content-header">
+                    <h2 class="content-tittle">SERVICES</h2>
+                    <form class="content-search">
+                        <input class="search-left" type="text" placeholder="Search services">
+                        <button class="search-right" type="submit">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </button>
+                    </form>
+                </div>
+                <table class="customers-table">
+                    <thead>
+                        <tr class="table-header-line">
+                            <th scope="col">
+                                <h3>NAME</h3>
+                                <i class="fa-solid fa-chevron-down"></i>
+                            </th>
+                            <th scope="col">
+                                <h3>DESCRIPTION</h3>
+                            </th>
+                            <th scope="col">
+                                <h3>CATEGORY</h3>
+                            </th>
+                            <th scope="col">
+                                <h3>PRICE</h3>
+                                <i class="fa-solid fa-chevron-down"></i>
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="table-elements-line">
+                            <td>
+                                <p>Van Dyke</p>
+                            </td>
+                            <td>
+                                <p>Bigode levemente curvado com cavanhaque pontudo</p>
+                            </td>
+                            <td>
+                                <p>Cabelo</p>
+                            </td>
+                            <td>
+                                <p>10.20</p>
+                            </td>
+                        </tr>
+                        <tr class="table-elements-line">
+                            <td>
+                                <p>GARIBALDI</p>
+                            </td>
+                            <td>
+                                <p>ALTO VOLUME E BIGODE LONGO</p>
+                            </td>
+                            <td>
+                                <p>Cabelo</p>
+                            </td>
+                            <td>
+                                <p>10.20</p>
+                            </td>
+                        </tr>
+                        <tr class="table-elements-line">
+                            <td>
+                                <p>Undercut</p>
+                            </td>
+                            <td>
+                                <p>Corte lateral e traseiro completo</p>
+                            </td>
+                            <td>
+                                <p>Cabelo</p>
+                            </td>
+                            <td>
+                                <p>10.20</p>
+                            </td>
+                        </tr>
+                        <tr class="table-elements-line">
+                            <td>
+                                <p>High Fade</p>
+                            </td>
+                            <td>
+                                <p>Corte na zero sem transição até 5cm acima da nuca</p>
+                            </td>
+                            <td>
+                                <p>Barba</p>
+                            </td>
+                            <td>
+                                <p>10.20</p>
+                            </td>
+                        </tr>
+                        <tr class="table-elements-line">
+                            <td>
+                                <p>Degradê</p>
+                            </td>
+                            <td>
+                                <p>Corte partindo da zero até o tamanho especificado</p>
+                            </td>
+                            <td>
+                                <p>Cabelo</p>
+                            </td>
+                            <td>
+                                <p>10.20</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div class="pagination">
+                    <ul class="pagination-list">
+                        <li><i class="fa-solid fa-angles-left"></i></li>
+                        <li>1</li>
+                        <li>2</li>
+                        <li>3</li>
+                        <li>4</li>
+                        <li>5</li>
+                        <li><i class="fa-solid fa-angles-right"></i></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="Scripts/Js/script.js"></script>
+</body>
+
+</html>
